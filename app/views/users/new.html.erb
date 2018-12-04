@@ -1,0 +1,10 @@
+<h1>Hello from the New User Page!</h1>
+
+<%= form_for @user do |f| %>
+  <p><%= f.label :username %>
+  <%= f.text_field :username %></p>
+  <p><%= f.label :bio %>
+  <%= f.text_area :bio %>
+  </p>
+  <%= f.submit %>
+<% end %>
