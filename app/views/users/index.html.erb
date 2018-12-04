@@ -1,0 +1,8 @@
+<h1>Hello from the Users index!</h1>
+
+<% @users.each do |user|%>
+  <h3><%= user.username %></h3>
+  <ul>
+  <li>Bio: <%= user.bio %></li>
+  </ul>
+<% end %>
